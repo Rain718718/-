@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+#bg_dark {
+    background-color: #444;
+}
+
+.navbar .container {
+    margin: 0 300px;
+    max-width: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: black;
+}
+
+.navbar h1 a {
+    float: left;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.current {
+    background-color: rgb(65, 97, 124);
+}
+
+.showcase {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.showcase .container .content h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.showcase .container .content p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.showcase .container .content h1 span {
+    color: rgb(47, 74, 226);
+}
+
+.showcase .container .content a {
+    color: rgb(255, 255, 255);
+}
+
+.showcase .btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    text-decoration: none;
+}
+
+.home_info {
+    display: flex;
+    height: 400px;
+}
+
+.home_info .info_img {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-position: center;
+}
+
+.home_info .info_content {
+    float: right;
+    background-image: url(../img/code.png);
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home_info .info_content h2 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.home_info .info_content .btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: #74afd6;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    height: 100vh;
+    grid-template-rows: auto;
+}
+
+.container>div {
+    background-image: url(../img/QAQ.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+}
