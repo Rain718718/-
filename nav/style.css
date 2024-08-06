@@ -131,3 +131,30 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
+.features {
+    background-image: linear-gradient(to right, rgb(33, 113, 167), rgb(60, 201, 142));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.box {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: rgb(65, 97, 124);
+}
+
+.box a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
